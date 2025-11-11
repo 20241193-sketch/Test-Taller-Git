@@ -8,10 +8,16 @@ package paq.papatinreborn;
  *
  * @author L33206
  */
-public class Prueba 
+public class Login 
 {
-    public static void main(String[] args) 
+    private String user;
+    private String password;
+
+    public Login(String user, String password) 
     {
-        
+        this.user = user;
+        this.password = password;
     }
+    
+    
 }
